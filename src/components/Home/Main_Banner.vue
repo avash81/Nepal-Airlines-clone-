@@ -3,7 +3,7 @@
     <!-- Background Image -->
     <img
       :src="images[currentIndex]"
-      alt="City Image"
+      alt=""
       class="w-full h-full object-cover transition duration-500"
     />
 
@@ -92,7 +92,7 @@ function prevSlide() {
 <style scoped>
 .fade-slide-enter-active,
 .fade-slide-leave-active {
-  transition: all 0.6s ease;
+  transition: all 0.9s ease;
 }
 .fade-slide-enter-from {
   opacity: 0;
