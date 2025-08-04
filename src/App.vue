@@ -1,4 +1,5 @@
 <script setup>
+import Footer from "./components/Footer.vue";
 import Header from "./components/Header.vue";
 import Home from "./Pages/Home.vue";
 </script>
@@ -6,5 +7,6 @@ import Home from "./Pages/Home.vue";
   <div>
     <Header />
     <Home />
+    <Footer />
   </div>
 </template>
